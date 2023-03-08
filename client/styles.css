@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap");
+
+body {
+	background-color: rgb(193, 230, 243);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Dosis", sans-serif;
+}
+.container {
+	background-color: white;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: -2px 3px 20px rgb(130, 130, 130);
+	max-width: 300px;
+	margin: 50px;
+}
+.desc {
+	font-size: 26px;
+	font-weight: 1000;
+	align-items: center;
+	text-align: center;
+	text-decoration: 400px;
+}
+.logo-cont {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+.eth-logo {
+	width: 150px;
+	border-radius: 20px;
+}
+.buttons {
+	display: flex;
+	border-radius: 20px;
+	padding: 10px;
+	border: 1px solid grey;
+	flex-direction: column;
+}
+.buttons button {
+	padding: 8px;
+	border-radius: 18px;
+	background-color: rgb(132, 199, 223);
+	color: white;
+	font-size: 15px;
+	font-weight: 700;
+	width: auto;
+	margin: 6px;
+}
+.buttons .label {
+	color: grey;
+	font-weight: 700;
+	font-size: 18px;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.buttons input {
+	padding: 8px;
+	border-radius: 15px;
+
+	font-size: 15px;
+	font-weight: 700;
+	width: auto;
+	margin: 6px;
+}

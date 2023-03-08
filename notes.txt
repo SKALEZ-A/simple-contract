@@ -1,0 +1,28 @@
+- install hardhat and required dev dependencies 
+
+- install hardhat deploy for easy deployment and create a deploy folder
+
+- install hardhat-deploy-ethers
+
+- create new js files under deploy folder
+
+- create a helper-hardhat-config file
+
+- refactor the FundMe and PriceConverter in a way that we can input the ChainId of each coin manually depending on which chain we're on to see the conversion rate
+
+NB: address + abi = contract 
+
+-  aave helps you work with different chains and multiple addresses
+
+- import the helper.config file to the deploy-fund-me file 
+
+- we use mocks to create out own priceFeed contract 
+
+- utils folder is where we add different scripts for different deployments 
+
+- Unit tests are done locally 
+    * Local hardhat network or Forked hardhat network
+- Staging tests are done on a testnet (LAST STOP before deploying to a mainnet)
+
+
+- To test out contract on a local node and have it funded we have to deploy on a local node that will allow 
